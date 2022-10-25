@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    background-color:#EEF1FF;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logform{
+    width:400px;
+    height: 400px;
+    margin-left: 450px;
+    margin-top: 150px;
+    /* border: 1px solid black; */
+}
+.h1{
+    text-align: center;
+    color: #B1B2FF;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+.email{
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.pass{
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 15px;
+    padding-top: 10px;
+}
+input[type="email"],input[type="password"]{
+    width: 200px;
+    height: 15px;
+}
+.log-btn{
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    padding: 8px 20px;
+    color: #FF8787;
+}
+.logform form .log-btn button{
+    background-color: beige;
+    outline: 1px solid;
+    outline-offset: 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.regpage{
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+p{
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px 25px;
+    
+}
+a:hover{
+    background-color: #FF8787;
+    color: black;
+    transition: .8s;
+}
